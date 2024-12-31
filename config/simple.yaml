@@ -1,7 +1,7 @@
 proxy-providers:
   Online:
     type: http
-    url: "https://raw.githubusercontent.com/snja/clash-config/refs/heads/main/proxy_provider/trojan.yaml"
+    url: "https://raw.githubusercontent.com/snja/clash-config/refs/heads/main/proxy_provider/trojan.yaml?token=GHSAT0AAAAAAC3E5FDJ54ZCNQINZWSWJ4POZ3T36XQ"
     path: "./proxy_provider/online.yaml"
     health-check:
       enable: true
