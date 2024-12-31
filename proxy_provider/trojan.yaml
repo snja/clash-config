@@ -1,0 +1,64 @@
+proxies:
+# =================================================
+  - name: servercepat
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 9a8b4232-baa0-46a9-9040-174fefc9a999
+    skip-cert-verify: true
+    sni: id4.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id4.servercepat.net
+    udp: true
+
+# =================================================
+  - name: servercepat2
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 9a8b4232-baa0-46a9-9040-174fefc9a999
+    skip-cert-verify: true
+    sni: support.zoom.us.id4.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: support.zoom.us.id4.servercepat.net
+    udp: true
+
+# =================================================
+  - name: srp1
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.vip-vless.tls.biz.id
+    network: ws
+    ws-opts:
+      path: /SrpCom/vless-ws
+      headers:
+        Host: support.zoom.us.vip-vless.tls.biz.id
+    udp: true
+
+# =================================================
+
+  - name: srp2
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    skip-cert-verify: true
+    sni: support.zoom.us.vip-trojan.tls.biz.id
+    network: ws
+    ws-opts:
+      path: /SrpCom/trojan-ws
+      headers:
+        Host: support.zoom.us.vip-trojan.tls.biz.id
+        
+# =================================================
