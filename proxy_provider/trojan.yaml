@@ -1,6 +1,7 @@
 proxies:
+
 # =================================================
-  - name: servercepat
+  - name: id4.servercepat
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -15,20 +16,21 @@ proxies:
     udp: true
 
 # =================================================
-  - name: servercepat2
-    server: support.zoom.us
+  - name: id1.servercepat
+    server: 104.17.3.81
     port: 443
     type: trojan
-    password: 9a8b4232-baa0-46a9-9040-174fefc9a999
+    password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
     skip-cert-verify: true
-    sni: support.zoom.us.id4.servercepat.net
+    sni: id1.servercepat.net
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: support.zoom.us.id4.servercepat.net
+        Host: id1.servercepat.net
     udp: true
 
+        
 # =================================================
   - name: srp1
     server: support.zoom.us
@@ -47,7 +49,6 @@ proxies:
     udp: true
 
 # =================================================
-
   - name: srp2
     server: support.zoom.us
     port: 443
@@ -60,5 +61,6 @@ proxies:
       path: /SrpCom/trojan-ws
       headers:
         Host: support.zoom.us.vip-trojan.tls.biz.id
+        
         
 # =================================================
