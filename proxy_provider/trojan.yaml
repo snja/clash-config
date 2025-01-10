@@ -1,19 +1,5 @@
 proxies:
-# =================================================
-  - name: srpcom
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
-    skip-cert-verify: true
-    sni: at.srpcom.online
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: at.srpcom.online
-    udp: true
-    
+
 # =================================================
   - name: id4.servercepat
     server: 104.17.3.81
@@ -42,5 +28,20 @@ proxies:
       path: /trojan-ws
       headers:
         Host: id1.servercepat.net
+    udp: true
+    
+# =================================================
+  - name: srpcom
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
+    skip-cert-verify: true
+    sni: at.srpcom.online
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: at.srpcom.online
     udp: true
     
