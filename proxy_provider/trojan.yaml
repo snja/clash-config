@@ -29,6 +29,7 @@ proxies:
       headers:
         Host: id1.servercepat.net
     udp: true
+    interface-name: eth2
     
 # =================================================
   - name: srpcom
