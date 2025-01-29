@@ -45,3 +45,6 @@ proxies:
         Host: at.srpcom.online
     udp: true
     
+# =================================================
+  - DIRECT
+    
