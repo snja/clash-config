@@ -31,7 +31,7 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srpcom
+  - name: srp
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -44,7 +44,4 @@ proxies:
       headers:
         Host: at.srpcom.online
     udp: true
-    
-# =================================================
-  - DIRECT
     
