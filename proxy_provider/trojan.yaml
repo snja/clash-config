@@ -31,8 +31,8 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srp
-    server: 104.17.3.81
+  - name: srp2
+    server: xcvip.srpcom.online
     port: 443
     type: trojan
     password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
