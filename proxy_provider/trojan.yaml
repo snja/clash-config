@@ -31,17 +31,18 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srp2
-    server: xcvip.srpcom.online
+  - name: srp.eth2
+    server: at.srpcom.online
     port: 443
     type: trojan
     password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
     skip-cert-verify: true
-    sni: at.srpcom.online
+    sni: cdn.appsflyer.com
     network: ws
     ws-opts:
       path: /trojanws
       headers:
         Host: at.srpcom.online
     udp: true
+    interface-name: eth2
     
