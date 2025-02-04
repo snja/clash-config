@@ -31,13 +31,13 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srp.eth2
-    server: at.srpcom.online
+  - name: srp.axis
+    server: axis.onelink.me
     port: 443
     type: trojan
     password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
     skip-cert-verify: true
-    sni: cdn.appsflyer.com
+    sni: at.srpcom.online
     network: ws
     ws-opts:
       path: /trojanws
