@@ -31,8 +31,8 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srp.axis
-    server: axis.onelink.me
+  - name: srp
+    server: xcvip.srpcom.online
     port: 443
     type: trojan
     password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
@@ -44,5 +44,4 @@ proxies:
       headers:
         Host: at.srpcom.online
     udp: true
-    interface-name: eth2
     
