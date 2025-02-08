@@ -1,21 +1,6 @@
 proxies:
 
 # =================================================
-  - name: id4
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 9a8b4232-baa0-46a9-9040-174fefc9a999
-    skip-cert-verify: true
-    sni: id4.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id4.servercepat.net
-    udp: true
-
-# =================================================
   - name: id1
     server: 104.17.3.81
     port: 443
