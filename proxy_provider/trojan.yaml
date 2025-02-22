@@ -2,7 +2,7 @@ proxies:
 
 # =================================================
   - name: id1
-    server: xcvip.srpcom.online
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
@@ -17,7 +17,7 @@ proxies:
 
 # =================================================
   - name: srp
-    server: xcvip.srpcom.online
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
