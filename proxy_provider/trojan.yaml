@@ -72,3 +72,19 @@ proxies:
       path: /SrpCom/trojan-ws
       headers:
         Host: support.zoom.us.vip-trojan.tls.biz.id
+
+  - name: srp4
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.vip-vless.tls.biz.id
+    network: ws
+    ws-opts:
+      path: /SrpCom/vless-ws
+      headers:
+        Host: support.zoom.us.vip-vless.tls.biz.id
+    udp: true
