@@ -60,3 +60,15 @@ proxies:
         Host: at.srpcom.online
     udp: true
     
+  - name: srp3
+    server: support.zoom.us
+    port: 443
+    type: trojan
+    password: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    skip-cert-verify: true
+    sni: support.zoom.us.vip-trojan.tls.biz.id
+    network: ws
+    ws-opts:
+      path: /SrpCom/trojan-ws
+      headers:
+        Host: support.zoom.us.vip-trojan.tls.biz.id
