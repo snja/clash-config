@@ -16,6 +16,23 @@ proxies:
     udp: true
 
 # =================================================
+  - name: srp.support
+    server: support.zoom.us
+    port: 443
+    type: vless
+    uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: support.zoom.us.vip-vless.tls.biz.id
+    network: ws
+    ws-opts:
+      path: /SrpCom/vless-ws
+      headers:
+        Host: support.zoom.us.vip-vless.tls.biz.id
+    udp: true
+
+# =================================================
   - name: srp
     server: 104.17.3.81
     port: 443
