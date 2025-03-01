@@ -1,22 +1,25 @@
 proxies:
 
 # =================================================
-  - name: id1
-    server: 104.17.3.81
+  - name: srp.support
+    server: support.zoom.us
     port: 443
-    type: trojan
-    password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
+    type: vless
+    uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id1.servercepat.net
+    servername: support.zoom.us.vip-vless.tls.biz.id
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /SrpCom/vless-ws
       headers:
-        Host: id1.servercepat.net
+        Host: support.zoom.us.vip-vless.tls.biz.id
     udp: true
+    
 
 # =================================================
-  - name: srp
+  - name: srp.81
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -30,3 +33,18 @@ proxies:
         Host: at.srpcom.online
     udp: true
     
+# =================================================
+
+  - name: id1
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
+    skip-cert-verify: true
+    sni: id1.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id1.servercepat.net
+    udp: true
