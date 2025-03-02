@@ -16,7 +16,7 @@ proxies:
     udp: true
     
 # =================================================
-  - name: taji.id4.support
+  - name: taji.id4
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -40,12 +40,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: support.zoom.us.vip-vless.tls.biz.id
+    servername: vip-vless.tls.biz.id
     network: ws
     ws-opts:
       path: /SrpCom/vless-ws
       headers:
-        Host: support.zoom.us.vip-vless.tls.biz.id
+        Host: vip-vless.tls.biz.id
     udp: true
 
 # =================================================
