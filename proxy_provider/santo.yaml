@@ -1,18 +1,18 @@
 proxies:
 
 # =================================================
-  - name: id1.81
+  - name: id1
     server: 104.17.3.81
     port: 443
     type: trojan
     password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
     skip-cert-verify: true
-    sni: support.zoom.us.id1.servercepat.net
+    sni: id1.servercepat.net
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: support.zoom.us.id1.servercepat.net
+        Host: id1.servercepat.net
     udp: true
 
 
