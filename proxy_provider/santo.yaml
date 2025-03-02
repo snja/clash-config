@@ -2,7 +2,7 @@ proxies:
 
 # =================================================
   - name: id1.support
-    server: support.zoom.us
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
