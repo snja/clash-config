@@ -7,12 +7,12 @@ proxies:
     type: trojan
     password: 1dd8abd1-cdd9-4f0d-8207-9041944406d7
     skip-cert-verify: true
-    sni: id4.servercepat.net
+    sni: support.zoom.us.id4.servercepat.net
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: id4.servercepat.net
+        Host: support.zoom.us.id4.servercepat.net
     udp: true
     
 # =================================================
