@@ -1,8 +1,8 @@
 proxies:
 
 # =================================================
-  - name: taji.id4
-    server: 104.17.3.81
+  - name: taji.id4.support
+    server: support.zoom.us
     port: 443
     type: trojan
     password: 1dd8abd1-cdd9-4f0d-8207-9041944406d7
