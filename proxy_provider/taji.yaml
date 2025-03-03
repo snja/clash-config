@@ -1,21 +1,6 @@
 proxies:
 
 # =================================================
-  - name: taji.id4.support
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 1dd8abd1-cdd9-4f0d-8207-9041944406d7
-    skip-cert-verify: true
-    sni: support.zoom.us.id4.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: support.zoom.us.id4.servercepat.net
-    udp: true
-
-# =================================================
   - name: taji.id4.81
     server: 104.17.3.81
     port: 443
@@ -46,21 +31,3 @@ proxies:
         Host: at.srpcom.online
     udp: true
 
-# =================================================
-  - name: srp.vless
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.vip-vless.tls.biz.id
-    network: ws
-    ws-opts:
-      path: /SrpCom/vless-ws
-      headers:
-        Host: support.zoom.us.vip-vless.tls.biz.id
-    udp: true
-
-    
