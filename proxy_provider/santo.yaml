@@ -40,12 +40,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vip-vless.tls.biz.id
+    servername: support.zoom.us.vip-vless.tls.biz.id
     network: ws
     ws-opts:
       path: /SrpCom/vless-ws
       headers:
-        Host: vip-vless.tls.biz.id
+        Host: support.zoom.us.vip-vless.tls.biz.id
     udp: true
 
 # =================================================

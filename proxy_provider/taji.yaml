@@ -32,7 +32,7 @@ proxies:
 
     
 # =================================================
-  - name: srp.81
+  - name: srp.atha
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -47,8 +47,8 @@ proxies:
     udp: true
 
 # =================================================
-  - name: srp.support
-    server: support.zoom.us
+  - name: srp.vless
+    server: 104.17.3.81
     port: 443
     type: vless
     uuid: 4c7133dd-88ad-4d4b-b4b5-f662851ace8a
