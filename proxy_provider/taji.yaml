@@ -17,17 +17,16 @@ proxies:
 
     
 # =================================================
-  - name: srp.atha
+  - name: id1
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 1adb4ed7-080d-4d40-85a3-dc2e81b2423e
+    password: c06e24d6-0103-4b77-8f6a-2e9d71f97148
     skip-cert-verify: true
-    sni: at.srpcom.online
+    sni: id1.servercepat.net
     network: ws
     ws-opts:
-      path: /trojanws
+      path: /trojan-ws
       headers:
-        Host: at.srpcom.online
+        Host: id1.servercepat.net
     udp: true
-
