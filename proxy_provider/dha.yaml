@@ -16,7 +16,7 @@ proxies:
     udp: true
 
 # =================================================
-  - name: id1
+  - name: id1.zen
     server: 104.17.3.81
     port: 443
     type: trojan
