@@ -16,16 +16,16 @@ proxies:
     udp: true
 
 # =================================================
-  - name: id4.ikd
+  - name: id1
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 4c5da038-aa2f-4e18-8bc4-7addfbb4f830
+    password: 4caa132b-b876-4397-bd70-eae45e0ea7b8
     skip-cert-verify: true
-    sni: id4.servercepat.net
+    sni: id1.servercepat.net
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: id4.servercepat.net
+        Host: id1.servercepat.net
     udp: true
