@@ -1,15 +1,13 @@
 proxies:
 # =================================================
-  - name: id4.ikd
+  - name: tifa.grcp
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 4c5da038-aa2f-4e18-8bc4-7addfbb4f830
+    password: 7926eefa-9a23-43e7-b6b9-6e96c00b7409
     skip-cert-verify: true
-    sni: id4.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id4.servercepat.net
+    sni: id3.servercepat.net
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: true
