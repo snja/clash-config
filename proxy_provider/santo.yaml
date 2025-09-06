@@ -1,14 +1,16 @@
 proxies:
-  - name: ikd
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: dd38dd91-4282-429b-b4cf-8f464f0682bb
-    skip-cert-verify: true
-    sni: id4.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: id4.servercepat.net
-    udp: true
+- name: tifa
+  server: 104.17.3.81
+  port: 443
+  type: vless
+  uuid: 582aeabe-2d42-46f1-9cb8-dde471112ea7
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id3.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id3.servercepat.net
+  udp: true
