@@ -1,3 +1,4 @@
+proxies:
 - name: id4.xcvip
   type: vmess
   server: xcvip.srpcom.online
