@@ -1,16 +1,16 @@
-proxies:
-- name: tifa
-  server: 104.17.3.81
+- name: id4.xcvip
+  type: vmess
+  server: xcvip.srpcom.online
   port: 443
-  type: vless
-  uuid: 582aeabe-2d42-46f1-9cb8-dde471112ea7
+  uuid: 7f8867aa-cc38-44ed-b682-77a39f910c12
+  alterId: 0
   cipher: auto
   tls: true
+  servername: id4.servercepat.net
   skip-cert-verify: true
-  servername: id3.servercepat.net
   network: ws
   ws-opts:
-    path: /vless
+    path: "/vmess"
     headers:
-      Host: id3.servercepat.net
+      Host: id4.servercepat.net
   udp: true
