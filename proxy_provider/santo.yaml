@@ -1,9 +1,9 @@
 proxies:
-- name: id4xcvip
+- name: "id4xcvip"
   type: vmess
   server: xcvip.srpcom.online
   port: 443
-  uuid: 7f8867aa-cc38-44ed-b682-77a39f910c12
+  uuid: "7f8867aa-cc38-44ed-b682-77a39f910c12"
   alterId: 0
   cipher: auto
   tls: true
