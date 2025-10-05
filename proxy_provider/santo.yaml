@@ -1,5 +1,5 @@
 proxies:
-- name: id4.xcvip
+- name: id4xcvip
   type: vmess
   server: xcvip.srpcom.online
   port: 443
