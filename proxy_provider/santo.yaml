@@ -1,18 +1,15 @@
 proxies:
 
-- name: "id4_xcvip"
-  type: vmess
+- name: biznet1
+  type: trojan
   server: xcvip.srpcom.online
   port: 443
-  uuid: 7f8867aa-cc38-44ed-b682-77a39f910c12
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: id4.servercepat.net
+  password: 3yqui8WcsYj7Ufn
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/vmess"
-    headers:
-      Host: id4.servercepat.net
+  sni: id1.servercepat.net
   udp: true
+  network: ws
+  ws-opts: 
+    path: /trojan-ws
+    headers: 
+      Host: id1.servercepat.net
